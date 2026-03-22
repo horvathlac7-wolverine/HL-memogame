@@ -2,10 +2,14 @@ const game = document.getElementById("game");
 
 // párok: kifejezés → eredmény
 const pairs = [
-    ["3 × 4", "12"],
-    ["5 + 7", "12"],
-    ["9 - 3", "6"],
-    ["8 ÷ 2", "4"]
+    ["sin 0°", "0"],
+    ["cos 0°", "1"],
+    ["cos 180°", "-1"],
+    ["sin 30°", "0.5"],
+    ["90°", "pí fele"],
+    ["270°", "3pí/2"],
+    ["360°", "2pí"],
+    ["30°", "pí hatoda"]
 ];
 
 // kártyák listája
